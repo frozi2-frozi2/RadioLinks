@@ -1,0 +1,15 @@
+# SwiftPM build products and local compiler caches
+RadioLinks/.build/
+RadioLinks/.module-cache/
+RadioLinks/.module-cache-before-move/
+
+# Temporary SwiftPM working directories
+RadioLinks/(A Document Being Saved By swift-build*/
+
+# Old YouTube helper binaries are not used by the radio-stream player
+RadioLinks/Resources/deno
+RadioLinks/Resources/yt-dlp_macos
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
