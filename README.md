@@ -2,16 +2,16 @@
 
 Небольшое приложение для фонового воспроизведения прямых интернет-радиопотоков на macOS.
 
-В репозитории находятся исходный код и два архива в корне:
+В приватном репозитории размещены исходный код и два архива:
 
 - [RadioLinks-macOS.zip](https://github.com/frozi2-frozi2/RadioLinks/raw/refs/heads/main/RadioLinks-macOS.zip) — готовое приложение `RadioLinks.app`.
 - [RadioLinks-source.zip](https://github.com/frozi2-frozi2/RadioLinks/raw/refs/heads/main/RadioLinks-source.zip) — полный архив исходников с ресурсами.
 
-Скачайте архив приложения, распакуйте его и перенесите `RadioLinks.app` в папку «Программы» или на рабочий стол. На другом Mac можно перенести весь пакет приложения.
+Скачайте архив приложения, распакуйте его и перенесите `RadioLinks.app` в папку «Программы» или на рабочий стол.
 
 ## Сборка из исходников
 
-На Mac с установленными Xcode Command Line Tools распакуйте `RadioLinks-source.zip`, откройте папку `RadioLinks` и выполните:
+Распакуйте `RadioLinks-source.zip`, откройте папку `RadioLinks` и на Mac с Xcode Command Line Tools выполните:
 
 ```sh
 bash build.sh

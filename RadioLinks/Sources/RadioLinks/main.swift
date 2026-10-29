@@ -764,7 +764,15 @@ struct LinkEditor: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Радиопотоки").font(.headline)
+            HStack(alignment: .firstTextBaseline, spacing: 8) {
+                Text("Радиопотоки").font(.headline)
+                Spacer(minLength: 8)
+                Link("https://streamurl.link/", destination: URL(string: "https://streamurl.link/")!)
+                    .font(.system(size: 26))
+                    .foregroundColor(.blue)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.7)
+            }
             HStack(spacing: 8) {
                 VStack(spacing: 8) {
                     Button { moveSelection(by: -1) } label: { Image(systemName: "arrow.up") }
