@@ -2,6 +2,7 @@
 RadioLinks/.build/
 RadioLinks/.module-cache/
 RadioLinks/.module-cache-before-move/
+RadioLinks/.module-cache.previous-codex-path/
 
 # Temporary SwiftPM working directories
 RadioLinks/(A Document Being Saved By swift-build*/
